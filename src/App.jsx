@@ -24,10 +24,10 @@ class Cat {
       let random = Math.random()
       switch (true) {
         case (random < 0.48):
-          this.sex = "F";
+          this.sex = "Female";
           break;
         case (random < 0.96):
-          this.sex = "M";
+          this.sex = "Male";
           break;
         default:
           this.sex = "Non-binary"
